@@ -1,0 +1,66 @@
+@use 'variaveis';
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding-right: 10px;
+    background: linear-gradient(-45deg, 
+    rgb(230, 27, 27),
+    rgb(230,27,27),
+    rgb(42, 184, 219),
+    variaveis.$corDeFundo);
+    background-size: 400% 400%;
+    animation: gradient 5s infinite ease-in-out;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1366px;
+        width: 100vw;
+        margin: 0 auto;
+    }
+
+    h1 {
+        display: flex;
+    }
+
+    &__logo {
+        height: 60px;
+        border: solid red;
+        border-radius: 10px;
+    }
+
+    &__links {
+        padding: 8px;
+
+        &__item {
+            display: inline;
+            padding: 5px;
+            font-size: 18px;
+            
+            a {
+                color: variaveis.$corDoTexto;
+                padding: 10px 25px;
+                text-decoration: none;
+                border: solid 4px;
+                border-radius: 5px;
+                background-color: rgb(255, 200, 18);
+            }
+        }
+    }
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+}

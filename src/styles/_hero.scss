@@ -1,0 +1,46 @@
+@use 'variaveis';
+
+.hero {
+    padding: 2vw;
+    text-align: center;
+    background-color: variaveis.$corDeFundoEscura;
+
+    &__content {
+        max-width: 1366px;
+        width: 100vw;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__watch {
+            padding: 5.6vw;
+
+            h1 {
+                margin-bottom: 50px;
+            }
+
+            p {
+                a {
+                    text-decoration: none;
+                    border: solid #fff;
+                    color: #fff;
+                    text-transform: uppercase;
+                    background-color: rgb(255, 200, 18);
+                    padding: 15px 30px;
+                }
+            }
+        }
+
+        &__branding {
+            max-width: 600px;
+            display: flex;
+
+            img {
+                max-height: 450px;
+                width: 300px;
+                display: flex;
+            }
+        }
+    }
+}

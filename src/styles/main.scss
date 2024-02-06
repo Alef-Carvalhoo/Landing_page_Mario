@@ -1,0 +1,17 @@
+@use 'variaveis';
+@use 'hero';
+@use 'header';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', system-ui;
+}
+
+
+body {
+    background-color: variaveis.$corDeFundo;
+    color: #fff;
+}
+
