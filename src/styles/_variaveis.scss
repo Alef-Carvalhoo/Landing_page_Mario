@@ -1,3 +1,17 @@
 $corDeFundo: rgb(20, 20, 20);
 $corDeFundoEscura: black;
 $corDoTexto: #fff;
+
+$gradientHeader: linear-gradient(-45deg, 
+rgb(230, 27, 27),
+rgb(230,27,27),
+rgb(42, 184, 219),
+rgb(20, 20, 20));
+
+$gradientMidia: linear-gradient(-45deg, 
+rgb(230, 27, 27),
+rgb(209, 23, 23),
+rgb(255, 0, 0),
+rgba(255, 30, 0, 0.5),
+#eb1212,
+rgb(255, 0, 0));

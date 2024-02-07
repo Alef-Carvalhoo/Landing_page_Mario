@@ -5,11 +5,7 @@
     top: 0;
     left: 0;
     padding-right: 10px;
-    background: linear-gradient(-45deg, 
-    rgb(230, 27, 27),
-    rgb(230,27,27),
-    rgb(42, 184, 219),
-    variaveis.$corDeFundo);
+    background: variaveis.$gradientHeader;
     background-size: 400% 400%;
     animation: gradient 5s infinite ease-in-out;
 
@@ -37,12 +33,12 @@
 
         &__item {
             display: inline;
-            padding: 5px;
-            font-size: 18px;
+            padding: 10px;
+            font-size: 15px;
             
             a {
                 color: variaveis.$corDoTexto;
-                padding: 10px 25px;
+                padding: 10px;
                 text-decoration: none;
                 border: solid 4px;
                 border-radius: 5px;

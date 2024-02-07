@@ -1,0 +1,50 @@
+@use 'variaveis';
+
+.characters {
+    padding: 5.0vw;
+
+    &__tabs {
+        display: flex;
+        justify-content: center;
+        margin: 20px 30px;
+
+        &__button{
+            padding: 15px 25px;
+            margin: 20px 30px;
+            border: none;
+            background: none;
+            color: variaveis.$corDoTexto;
+            font-size: 20px;
+        
+        &--is-active {
+            border-bottom: solid 3px variaveis.$corDoTexto;
+        }
+        }
+    }
+
+    &__description {
+        display: none;
+        
+        &--is-active {
+            display: flex;
+        }
+
+        &__item {
+            width: 400px;
+            height: 400px;
+            margin-right: 32px;
+            border: solid transparent;
+            border-radius: 30px;
+
+            &__text{
+                
+                h2 {
+                    margin-bottom: 20px;
+                    padding: 20px;
+                }
+
+            }
+        }
+    }
+
+}

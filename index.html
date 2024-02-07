@@ -17,25 +17,25 @@
             </h1>
             <ul class="header__links">
                 <li class="header__links__item" >
-                    <a href="#">World</a>
+                    <a href="#hero">Assista</a>
                 </li>
                 <li class="header__links__item">
-                    <a href="#">World</a>
+                    <a href="#midia">Trailer</a>
                 </li>
                 <li class="header__links__item">
-                    <a href="#">World</a>
+                    <a href="#characters">Personagens</a>
                 </li>
             </ul>
         </div>
     </header>
-    <section class="hero">
+    <section id="hero" class="hero">
         <div class="hero__content">
             <div class="hero__content__watch">
                 <h1>
                     SUPER MARIO: O FILME
                 </h1>
                 <p>
-                    <a href="#">Assista agora Online!</a>
+                    <a href="https://www.youtube.com/results?search_query=trailer+oficial+super+mario+o+filme">Assista agora Online!</a>
                 </p>
             </div>
             <div class="hero__content__branding">
@@ -43,6 +43,60 @@
                 <img src="./src/images/luigi.jfif" alt="Luigi">
             </div>
         </div>
+    </section>
+    <section id="midia" class="midia">
+        <h1 class="midia__text">
+            Trailer Oficial
+        </h1>
+        <div class="midia__content">
+            <video class="mida__content__item" src="https://www.youtube.com/watch?v=wkn-Gb-Fhac" controls poster="./src/images/poster.jpg"></video>
+        </div>
+    </section>
+    <section id="characters" class="characters">
+        <nav class="characters__tabs">
+            <button data-tab-button="Mario" class="characters__tabs__button characters__tabs__button--is-active">Mario</button>
+            <button data-tab-button="Luigi" class="characters__tabs__button">Luigi</button>
+            <button data-tab-button="Peach" class="characters__tabs__button">Peach</button>
+        </nav>
+            <div data-tab-id="Mario" class="characters__description characters__description--is-active">
+                <img class="characters__description__item" src="./src/images/super_mario.jpg" alt="Sper Mario">
+                <div class="characters__description__item__text">
+                    <h2>
+                        Mario Bros
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate fuga facere inventore doloribus similique obcaecati? Saepe quia aperiam, cupiditate cum hic atque voluptatum dolorum eaque sunt illum magni nam voluptatibus.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis numquam rem tempora nesciunt ut soluta, sint eius obcaecati dolor quaerat quod temporibus facere! Sit consequuntur quam ipsum, maiores impedit enim.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla recusandae, adipisci exercitationem provident maxime omnis id minus maiores praesentium nobis nam eos laborum soluta, qui asperiores. Pariatur molestias quia consectetur!
+                    </p>
+                </div>
+            </div>
+            <div data-tab-id="Luigi" class="characters__description">
+                <img class="characters__description__item" src="./src/images/super_luigi.jpg" alt="Luigi">
+                <div class="characters__description__item__text">
+                    <h2>
+                        Luigi
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate fuga facere inventore doloribus similique obcaecati? Saepe quia aperiam, cupiditate cum hic atque voluptatum dolorum eaque sunt illum magni nam voluptatibus.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis numquam rem tempora nesciunt ut soluta, sint eius obcaecati dolor quaerat quod temporibus facere! Sit consequuntur quam ipsum, maiores impedit enim.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla recusandae, adipisci exercitationem provident maxime omnis id minus maiores praesentium nobis nam eos laborum soluta, qui asperiores. Pariatur molestias quia consectetur!
+                    </p>
+                </div>
+            </div>
+            <div data-tab-id="Peach" class="characters__description">
+                <img class="characters__description__item" src="./src/images/princesa_peach.jpg" alt="Princesa Peach">
+                <div class="characters__description__item__text">
+                    <h2>
+                        Princesa Peach
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate fuga facere inventore doloribus similique obcaecati? Saepe quia aperiam, cupiditate cum hic atque voluptatum dolorum eaque sunt illum magni nam voluptatibus.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis numquam rem tempora nesciunt ut soluta, sint eius obcaecati dolor quaerat quod temporibus facere! Sit consequuntur quam ipsum, maiores impedit enim.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla recusandae, adipisci exercitationem provident maxime omnis id minus maiores praesentium nobis nam eos laborum soluta, qui asperiores. Pariatur molestias quia consectetur!
+                    </p>
+                </div>
+            </div>
     </section>
     <script src="./dist/js/main.js"></script>
 </body>
